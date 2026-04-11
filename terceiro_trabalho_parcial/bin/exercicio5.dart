@@ -5,7 +5,7 @@ void main() {
   int pares = 0;
   int impares = 0;
 
-  stigite um ndout.write("Dúmero (0 para parar): ");
+  stdout.write("Digite um número (0 para parar): ");
   numero = int.parse(stdin.readLineSync()!);
 
   while (numero != 0) {
